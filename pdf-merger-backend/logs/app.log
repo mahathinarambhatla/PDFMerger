@@ -35,3 +35,38 @@
 2026-07-19 16:45:41,999 | INFO | Validating uploaded files
 2026-07-19 16:45:41,999 | ERROR | Validation Error: Please upload at least 2 PDF files.
 2026-07-19 16:45:42,000 | INFO | 127.0.0.1 - - [19/Jul/2026 16:45:42] "[31m[1mPOST /merge HTTP/1.1[0m" 400 -
+2026-07-19 18:14:03,464 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 18:14:03,464 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-19 18:14:03,465 | INFO |  * Restarting with stat
+2026-07-19 18:14:03,730 | WARNING |  * Debugger is active!
+2026-07-19 18:14:03,732 | INFO |  * Debugger PIN: 577-044-158
+2026-07-19 18:14:20,652 | INFO | Merge request received
+2026-07-19 18:14:20,661 | INFO | Number of uploaded files: 2
+2026-07-19 18:14:20,661 | INFO | Validating uploaded files
+2026-07-19 18:14:20,661 | INFO | File validation successful
+2026-07-19 18:14:20,710 | INFO | PDF merge completed successfully
+2026-07-19 18:14:20,711 | INFO | 127.0.0.1 - - [19/Jul/2026 18:14:20] "POST /merge HTTP/1.1" 200 -
+2026-07-19 18:14:21,166 | INFO | Merge request received
+2026-07-19 18:14:21,167 | INFO | Number of uploaded files: 2
+2026-07-19 18:14:21,167 | INFO | Validating uploaded files
+2026-07-19 18:14:21,167 | INFO | File validation successful
+2026-07-19 18:14:21,207 | INFO | PDF merge completed successfully
+2026-07-19 18:14:21,207 | INFO | 127.0.0.1 - - [19/Jul/2026 18:14:21] "POST /merge HTTP/1.1" 200 -
+2026-07-19 18:14:21,692 | INFO | Merge request received
+2026-07-19 18:14:21,693 | INFO | Number of uploaded files: 2
+2026-07-19 18:14:21,693 | INFO | Validating uploaded files
+2026-07-19 18:14:21,693 | INFO | File validation successful
+2026-07-19 18:14:21,727 | INFO | PDF merge completed successfully
+2026-07-19 18:14:21,727 | INFO | 127.0.0.1 - - [19/Jul/2026 18:14:21] "POST /merge HTTP/1.1" 200 -
+2026-07-19 18:21:40,137 | INFO | Merge request received
+2026-07-19 18:21:40,146 | INFO | Number of uploaded files: 2
+2026-07-19 18:21:40,146 | INFO | Validating uploaded files
+2026-07-19 18:21:40,146 | INFO | File validation successful
+2026-07-19 18:21:40,152 | INFO | PDF merge completed successfully
+2026-07-19 18:21:40,152 | INFO | 127.0.0.1 - - [19/Jul/2026 18:21:40] "POST /merge HTTP/1.1" 200 -
+2026-07-19 18:22:34,432 | INFO | Merge request received
+2026-07-19 18:22:34,436 | INFO | Number of uploaded files: 7
+2026-07-19 18:22:34,436 | INFO | Validating uploaded files
+2026-07-19 18:22:34,436 | ERROR | Validation Error: Maximum 5 PDF files are allowed.
+2026-07-19 18:22:34,437 | INFO | 127.0.0.1 - - [19/Jul/2026 18:22:34] "[31m[1mPOST /merge HTTP/1.1[0m" 400 -
