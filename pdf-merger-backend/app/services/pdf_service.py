@@ -1,5 +1,11 @@
+"""PDF service layer.
+
+Contains business logic for merging uploaded PDFs.
+"""
+
 from pypdf import PdfWriter
 import io
+
 
 def merge_pdfs(files):
     writer = PdfWriter()

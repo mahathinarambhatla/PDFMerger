@@ -1,0 +1,37 @@
+2026-07-19 16:24:42,873 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 16:24:42,873 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-19 16:24:42,875 | INFO |  * Restarting with stat
+2026-07-19 16:24:43,133 | WARNING |  * Debugger is active!
+2026-07-19 16:24:43,135 | INFO |  * Debugger PIN: 577-044-158
+2026-07-19 16:24:48,050 | INFO | Merge request received
+2026-07-19 16:24:48,056 | INFO | Number of uploaded files: 5
+2026-07-19 16:24:48,057 | INFO | Validating uploaded files
+2026-07-19 16:24:48,057 | INFO | File validation successful
+2026-07-19 16:24:48,086 | INFO | PDF merge completed successfully
+2026-07-19 16:24:48,173 | INFO | 127.0.0.1 - - [19/Jul/2026 16:24:48] "POST /merge HTTP/1.1" 200 -
+2026-07-19 16:25:35,887 | INFO |  * Detected change in 'C:\\Users\\mahat\\Desktop\\my_utils\\PDF_MERGER\\pdf-merger-backend\\app\\routes.py', reloading
+2026-07-19 16:25:36,185 | INFO |  * Restarting with stat
+2026-07-19 16:45:20,050 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 16:45:20,053 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-19 16:45:20,054 | INFO |  * Restarting with stat
+2026-07-19 16:45:20,301 | WARNING |  * Debugger is active!
+2026-07-19 16:45:20,303 | INFO |  * Debugger PIN: 577-044-158
+2026-07-19 16:45:25,357 | INFO | Merge request received
+2026-07-19 16:45:25,362 | INFO | Number of uploaded files: 5
+2026-07-19 16:45:25,362 | INFO | Validating uploaded files
+2026-07-19 16:45:25,362 | INFO | File validation successful
+2026-07-19 16:45:25,399 | INFO | PDF merge completed successfully
+2026-07-19 16:45:25,400 | INFO | 127.0.0.1 - - [19/Jul/2026 16:45:25] "POST /merge HTTP/1.1" 200 -
+2026-07-19 16:45:30,892 | INFO | Merge request received
+2026-07-19 16:45:30,899 | INFO | Number of uploaded files: 4
+2026-07-19 16:45:30,899 | INFO | Validating uploaded files
+2026-07-19 16:45:30,899 | INFO | File validation successful
+2026-07-19 16:45:30,908 | INFO | PDF merge completed successfully
+2026-07-19 16:45:30,908 | INFO | 127.0.0.1 - - [19/Jul/2026 16:45:30] "POST /merge HTTP/1.1" 200 -
+2026-07-19 16:45:41,997 | INFO | Merge request received
+2026-07-19 16:45:41,999 | INFO | Number of uploaded files: 1
+2026-07-19 16:45:41,999 | INFO | Validating uploaded files
+2026-07-19 16:45:41,999 | ERROR | Validation Error: Please upload at least 2 PDF files.
+2026-07-19 16:45:42,000 | INFO | 127.0.0.1 - - [19/Jul/2026 16:45:42] "[31m[1mPOST /merge HTTP/1.1[0m" 400 -

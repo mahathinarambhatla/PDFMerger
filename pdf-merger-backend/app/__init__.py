@@ -1,5 +1,14 @@
+"""Flask application factory.
+
+Creates and configures the Flask app instance.
+
+Exports:
+    create_app() -> flask.Flask
+"""
+
 from flask import Flask
 from flask_cors import CORS
+
 
 def create_app():
     app = Flask(__name__)

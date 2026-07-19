@@ -1,3 +1,5 @@
+"""Application entrypoint for running the backend locally."""
+
 from app import create_app
 
 app = create_app()
