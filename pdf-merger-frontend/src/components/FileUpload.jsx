@@ -17,23 +17,18 @@ function FileUpload() {
 
 
     const handleFileChange = (event) => {
+
         const selectedFiles = Array.from(event.target.files);
-    
-        const newFiles = selectedFiles.filter((file) => {
-            return !files.some(
-                (existingFile) =>
-                    existingFile.name === file.name &&
-                    existingFile.size === file.size
-            );
-        });
-    
-        if (newFiles.length !== selectedFiles.length) {
-            alert("Duplicate files are not allowed");
-        }
-    
-        setFiles([...files, ...newFiles]);
-    
-        // reset input so same file can be selected again after removal
+
+        setFiles((previousFiles) => [
+            ...previousFiles,
+            ...selectedFiles
+        ]);
+
+        setDownloadUrl(null);
+        setMessage("");
+
+        // allows selecting same file again
         event.target.value = "";
     };
 
