@@ -70,3 +70,15 @@
 2026-07-19 18:22:34,436 | INFO | Validating uploaded files
 2026-07-19 18:22:34,436 | ERROR | Validation Error: Maximum 5 PDF files are allowed.
 2026-07-19 18:22:34,437 | INFO | 127.0.0.1 - - [19/Jul/2026 18:22:34] "[31m[1mPOST /merge HTTP/1.1[0m" 400 -
+2026-07-19 18:27:19,221 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 18:27:19,221 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-19 18:27:19,222 | INFO |  * Restarting with stat
+2026-07-19 18:27:19,481 | WARNING |  * Debugger is active!
+2026-07-19 18:27:19,484 | INFO |  * Debugger PIN: 577-044-158
+2026-07-19 18:27:30,410 | INFO | Merge request received
+2026-07-19 18:27:30,413 | INFO | Number of uploaded files: 2
+2026-07-19 18:27:30,413 | INFO | Validating uploaded files
+2026-07-19 18:27:30,413 | INFO | File validation successful
+2026-07-19 18:27:30,418 | INFO | PDF merge completed successfully
+2026-07-19 18:27:30,419 | INFO | 127.0.0.1 - - [19/Jul/2026 18:27:30] "POST /merge HTTP/1.1" 200 -
