@@ -1,0 +1,29 @@
+Work Item Type,Title,Description,Acceptance Criteria,Priority,Tags
+Task,PDF Merger Application,Develop a web application using React and Flask that allows users to merge multiple PDF files into a single PDF.,Application meets all functional and non-functional requirements.,1,PDFMerger
+Task,Project Setup,Set up the frontend and backend development environments.,React and Flask projects are initialized and runnable.,1,Setup
+Task,PDF Upload,Implement functionality for uploading PDF files.,Users can upload up to five PDF files successfully.,1,Upload
+Task,PDF Merge,Implement PDF merging functionality.,Uploaded PDFs are merged while preserving page order.,1,Merge
+Task,PDF Preview & Download,Allow users to preview and download the merged PDF.,Merged PDF is displayed and downloadable.,2,"Preview,Download"
+Task,Notifications & Error Handling,Provide user notifications and error handling.,Meaningful success and error messages are displayed.,2,Notifications
+Task,Testing,Perform functional and API testing.,All test cases pass successfully.,3,Testing
+Task,"As a user, I want to upload multiple PDF files so that I can merge them into one document.",Allow upload using drag-and-drop or file picker.,Maximum 5 PDFs; Only PDF files accepted; Uploaded files displayed.,1,Upload
+Task,"As a user, I want the uploaded PDF files to be merged into a single document so that I have one consolidated PDF.",Merge uploaded PDFs preserving upload order.,All pages merged; No pages lost; Order preserved.,1,Merge
+Task,"As a user, I want to preview the merged PDF before downloading it so that I can verify the contents.",Display merged PDF in browser.,Merged PDF preview displayed correctly.,2,Preview
+Task,"As a user, I want to download the merged PDF so that I can save it locally.",Provide download functionality.,Merged PDF downloads successfully.,2,Download
+Task,"As a user, I want to receive a notification after the merge is complete so that I know the PDF is ready.",Display success and error notifications.,Success notification displayed after merge completes.,2,Notifications
+Task,Initialize React Project,"Create React application using Vite, configure folder structure and dependencies.",React application runs successfully.,1,Frontend
+Task,Initialize Flask Backend,"Create Flask application, configure virtual environment and enable CORS.",Backend API starts successfully.,1,Backend
+Task,Create Upload Component,Develop React component supporting drag-and-drop and file selection.,Upload component accepts PDF files.,1,Frontend
+Task,Validate Uploaded Files,Allow only PDF files and maximum five uploads.,Invalid files rejected with message.,1,"Frontend,Validation"
+Task,Implement Upload API,Create POST /upload endpoint to receive PDF files.,API accepts multipart/form-data.,1,"Backend,API"
+Task,Implement PDF Merge Service,Use pypdf/PyPDF2 to merge uploaded PDFs.,Merged PDF generated successfully.,1,Backend
+Task,Create Merge API,Develop POST /merge endpoint.,Merged PDF returned to frontend.,1,Backend
+Task,Integrate React with Upload API,Connect upload component to Flask upload endpoint.,Files uploaded successfully.,2,Integration
+Task,Integrate React with Merge API,Invoke merge API from React.,Merge initiated successfully.,2,Integration
+Task,Display PDF Preview,Render merged PDF in browser.,Preview loads successfully.,2,Frontend
+Task,Implement Download Button,Allow users to download merged PDF.,Download starts on button click.,2,Frontend
+Task,Display Success Notification,Notify users when merge completes.,Success toast/message displayed.,3,Frontend
+Task,Display Error Messages,Handle upload and merge failures.,Appropriate error messages displayed.,3,Frontend
+Task,Delete Temporary Files,Remove uploaded files after merge.,Temporary storage cleaned.,3,Backend
+Task,Write Frontend Tests,"Test upload, preview and download functionality.",Frontend tests pass.,3,Testing
+Task,Write Backend Tests,Test upload and merge APIs.,Backend tests pass.,3,Testing
